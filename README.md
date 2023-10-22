@@ -1,5 +1,7 @@
 # ⬆️ Amazon Web Services Certified (AWS Certified) Machine Learning (MLS-C01) Practice Tests Exams Questions & Answers
 
+![Promotional image](images/promotional.png)
+
 ### A large mobile network operating company is building a machine learning model to predict customers who are likely to unsubscribe from the service. The company plans to offer an incentive for these customers as the cost of churn is far greater than the cost of the incentive. The model produces the following confusion matrix after evaluating on a test dataset of 100 customers. Based on the model evaluation results, why is this a viable model for production?
 
 ![Question 1](images/question1.jpg)
