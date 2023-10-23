@@ -2,6 +2,77 @@
 
 ![Promotional image](images/promotional.png)
 
+## Udemy & Etsy
+
+❣️ Please support us by purchasing this course on Udemy in an interactive version with the [discounted link](https://www.udemy.com/user/social-ditectrev/). If you're working for a company, you could most probably easily claim this expense during preparation for your exam. For us, it's to be, or not to be, in the game.
+
+🛍️ Alternatively, you can buy the PDF with those questions on [Etsy](https://ditectrev.etsy.com/).
+
+## ✨ This course is unlike any Amazon Web Services Certified (AWS Certified) Machine Learning (MLS-C01) course you will find online
+
+✋ Join a live online community and a course taught by industry experts and pass the Amazon Web Services Certified (AWS Certified) Machine Learning (MLS-C01) confidently. We aim to build an ecosystem of Information Technology (IT) certifications and online courses in cooperation with the technology industry. We believe it will give our students 100% confidence in the pacing market in an open-source environment. We are just at the beginning of our way, so it's even better for you to join now!
+
+[![Join our Discord](images/discord.png 'Join our Discord')](https://discord.gg/RFjtXKfJy3)
+
+## ⌛️ Short and to the point; why should you take the course
+
+1. Always happy to answer your questions on Udemy's Q&A's and outside :)
+2. Failed? Please submit a screenshot of your exam result and request a refund (via our upcoming platform, not possible on Udemy); we'll always accept it.
+3. Learn about topics, such as:
+   - Amazon Athena;
+   - Amazon CloudWatch;
+   - Amazon Comprehend;
+   - Amazon Elastic Compute Cloud (Amazon EC2);
+   - Amazon Elastic Map Reduce (Amazon EMR);
+   - Amazon Kinesis;
+   - Amazon SageMaker;
+   - Amazon Simple Storage Service (Amazon S3);
+   - Amazon Textract;
+   - Amazon Transcribe;
+   - Apache Spark;
+   - AWS Batch;
+   - AWS Glue;
+   - AWS Lambda;
+   - Convolutional Neural Network (CNN);
+   - K-means;
+   - Linear Regression;
+   - Logistic Regression;
+   - Principal Component Analysis (PCA);
+   - Recurrent Neural Network (RNN);
+   - Virtual Private Clouds (VPC);
+   - **Much More!**
+4. Questions are similar to the actual exam, without duplications (like in other courses ;-)).
+5. The Practice Tests Exams simulate the actual exam's content, timing, and percentage required to pass the exam.
+6. This course is **not** an Amazon Web Services Certified (AWS Certified) Machine Learning (MLS-C01) Exam Dump. Some people use brain dumps or exam dumps, but that's absurd, which we don't practice.
+7. 138 **unique** questions.
+
+## ☝️ Course Updates
+
+**[v1.0.0](../../releases/tag/v1.0.0): October 25, 2023.**
+
+- Launch of the course.
+
+## 🙋‍♀️ & 🙋‍♂️ Contribution
+
+We are so thankful for every contribution, which makes sure we can deliver top-notch content. Whenever you find a missing resource, broken link in a [Table of Contents](#table-of-contents), the wrong answer, please submit an [issue](../../issues). Even better would be a [Pull Request (PR)](../../pulls).
+
+## Who this course is for:
+
+- 👨‍🎓 Students preparing for the Amazon Web Services Certified (AWS Certified) Machine Learning (MLS-C01) Exam;
+- 👨‍🎓 Amazon Web Services (AWS) Engineers;
+- 👨‍🎓 Artificial Intelligence (AI) Engineers;
+- 👨‍🎓 Data Scientists;
+- 👨‍🎓 Deep Learning Engineers;
+- 👨‍🎓 Machine Learning Engineers;
+- 👨‍🎓 Natural Language Processing (NLP) Engineers.
+- 👨‍🎓 Neural Network Engineers.
+
+## Requirements
+
+- 🤩 Excitement to learn!
+- 0️⃣ Prior knowledge is required;
+- ✅ You can pass the Amazon Web Services Certified (AWS Certified) Machine Learning (MLS-C01) Exam solely based on our Practice Tests Exams.
+
 ### A large mobile network operating company is building a machine learning model to predict customers who are likely to unsubscribe from the service. The company plans to offer an incentive for these customers as the cost of churn is far greater than the cost of the incentive. The model produces the following confusion matrix after evaluating on a test dataset of 100 customers. Based on the model evaluation results, why is this a viable model for production?
 
 ![Question 1](images/question1.jpg)
@@ -36,7 +107,7 @@
 
 - [ ] Use a custom encryption algorithm to encrypt the data and store the data on an Amazon SageMaker instance in a VPC. Use the SageMaker DeepAR algorithm to randomize the credit card numbers..
 - [ ] Use an IAM policy to encrypt the data on the Amazon S3 bucket and Amazon Kinesis to automatically discard credit card numbers and insert fake credit card numbers.
-- [ ] Use an Amazon SageMaker launch configuration to encrypt the data once it is copied to the SageMaker instance in a VPC. Use the SageMaker principal component analysis (PCA) algorithm to reduce the length of the credit card numbers.
+- [ ] Use an Amazon SageMaker launch configuration to encrypt the data once it is copied to the SageMaker instance in a VPC. Use the SageMaker Principal Component Analysis (PCA) algorithm to reduce the length of the credit card numbers.
 - [x] Use AWS KMS to encrypt the data on Amazon S3 and Amazon SageMaker, and redact the credit card numbers from the customer data with AWS Glue.
 
 ### A Machine Learning Specialist is using an Amazon SageMaker notebook instance in a private subnet of a corporate VPC. The ML Specialist has important data stored on the Amazon SageMaker notebook instance's Amazon EBS volume, and needs to take a snapshot of that EBS volume. However, the ML Specialist cannot find the Amazon SageMaker notebook instance's EBS volume or Amazon EC2 instance within the VPC. Why is the ML Specialist not seeing the instance visible in the VPC?
@@ -83,7 +154,7 @@
 
 ### A Machine Learning Specialist is working with a large company to leverage machine learning within its products. The company wants to group its customers into categories based on which customers will and will not churn within the next 6 months. The company has labeled the data available to the Specialist. Which machine learning model type should the Specialist use to accomplish this task?
 
-- [ ] Linear regression.
+- [ ] Linear Regression.
 - [x] Classification.
 - [ ] Clustering.
 - [ ] Reinforcement learning.
@@ -102,7 +173,7 @@
 ![Question 14](images/question14.png)
 
 - [ ] Long short-term memory (LSTM) model with scaled exponential linear unit (SELU).
-- [ ] Logistic regression.
+- [ ] Logistic Regression.
 - [x] Support vector machine (SVM) with non-linear kernel.
 - [ ] Single perceptron with tanh activation function.
 
@@ -134,7 +205,7 @@
 - [ ] Organize the Docker container's file structure to execute on GPU instances.
 - [ ] Set the GPU flag in the Amazon SageMaker CreateTrainingJob request body.
 
-### A Machine Learning Specialist is building a logistic regression model that will predict whether or not a person will order a pizza. The Specialist is trying to build the optimal model with an ideal classification threshold. What model evaluation technique should the Specialist use to understand how different classification thresholds will impact the model's performance?
+### A Machine Learning Specialist is building a Logistic Regression model that will predict whether or not a person will order a pizza. The Specialist is trying to build the optimal model with an ideal classification threshold. What model evaluation technique should the Specialist use to understand how different classification thresholds will impact the model's performance?
 
 - [x] Receiver operating characteristic (ROC) curve.
 - [ ] Misclassification rate.
@@ -163,7 +234,7 @@
 - [ ] Spin up a fleet of Amazon EC2 instances with the transformation logic, have them transform the data records accumulating on Amazon S3, and output the transformed records to Amazon S3.
 - [x] Insert an Amazon Kinesis Data Analytics stream downstream of the Kinesis Data Firehose stream that transforms raw record attributes into simple transformed values using SQL.
 
-### A Machine Learning Specialist is building a convolutional neural network (CNN) that will classify 10 types of animals. The Specialist has built a series of layers in a neural network that will take an input image of an animal, pass it through a series of convolutional and pooling layers, and then finally pass it through a dense and fully connected layer with 10 nodes. The Specialist would like to get an output from the neural network that is a probability distribution of how likely it is that the input image belongs to each of the 10 classes. Which function will produce the desired output?
+### A Machine Learning Specialist is building a Convolutional Neural Network (CNN) that will classify 10 types of animals. The Specialist has built a series of layers in a neural network that will take an input image of an animal, pass it through a series of convolutional and pooling layers, and then finally pass it through a dense and fully connected layer with 10 nodes. The Specialist would like to get an output from the neural network that is a probability distribution of how likely it is that the input image belongs to each of the 10 classes. Which function will produce the desired output?
 
 - [ ] Dropout.
 - [ ] Smooth L1 loss.
@@ -255,7 +326,7 @@
 - [ ] Drop all records from the dataset where age has been set to 0.
 - [ ] Replace the age field value for records with a value of 0 with the mean or median value from the dataset.
 - [ ] Drop the age feature from the dataset and train the model using the rest of the features.
-- [x] Use k-means clustering to handle missing features.
+- [x] Use K-means clustering to handle missing features.
 
 ### A Data Science team is designing a dataset repository where it will store a large amount of training data commonly used in its machine learning models. As Data Scientists may create an arbitrary number of new datasets every day, the solution has to scale automatically and be cost-effective. Also, it must be possible to explore the data using SQL. Which storage scheme is MOST adapted to this scenario?
 
@@ -329,7 +400,7 @@
 - [ ] A naive Bayesian model, since some of the features are statistically dependent.
 - [x] A full Bayesian network, since some of the features are statistically dependent.
 
-### A Data Scientist is building a linear regression model and will use resulting p-values to evaluate the statistical significance of each coefficient. Upon inspection of the dataset, the Data Scientist discovers that most of the features are normally distributed. The plot of one feature in the dataset is shown in the graphic. What transformation should the Data Scientist apply to satisfy the statistical assumptions of the linear regression model?
+### A Data Scientist is building a Linear Regression model and will use resulting p-values to evaluate the statistical significance of each coefficient. Upon inspection of the dataset, the Data Scientist discovers that most of the features are normally distributed. The plot of one feature in the dataset is shown in the graphic. What transformation should the Data Scientist apply to satisfy the statistical assumptions of the Linear Regression model?
 
 ![Question 45](images/question45.jpg)
 
@@ -345,7 +416,7 @@
 - [ ] Implement the solution using AWS Deep Learning Containers, run the workload using AWS Fargate running on Spot Instances, and then schedule the task using the built-in task scheduler.
 - [ ] Implement the solution using Amazon ECS running on Spot Instances and schedule the task using the ECS service scheduler.
 
-### A Machine Learning Specialist prepared the following graph displaying the results of k-means for k = [1..10]. Considering the graph, what is a reasonable selection for the optimal choice of k?
+### A Machine Learning Specialist prepared the following graph displaying the results of K-means for k = [1..10]. Considering the graph, what is a reasonable selection for the optimal choice of k?
 
 ![Question 47](images/question47.jpg)
 
@@ -375,14 +446,14 @@
 - [ ] A k-fold cross-validation strategy with k=5 and 3 repeats.
 - [ ] An 80/20 stratified split between training and validation.
 
-### A Machine Learning Specialist is attempting to build a linear regression model. Given the displayed residual plot only, what is the MOST likely problem with the model?
+### A Machine Learning Specialist is attempting to build a Linear Regression model. Given the displayed residual plot only, what is the MOST likely problem with the model?
 
 ![Question 51](images/question51.jpg)
 
-- [x] Linear regression is inappropriate. The residuals do not have constant variance.
-- [ ] Linear regression is inappropriate. The underlying data has outliers.
-- [ ] Linear regression is appropriate. The residuals have a zero mean.
-- [ ] Linear regression is appropriate. The residuals have constant variance.
+- [x] Linear Regression is inappropriate. The residuals do not have constant variance.
+- [ ] Linear Regression is inappropriate. The underlying data has outliers.
+- [ ] Linear Regression is appropriate. The residuals have a zero mean.
+- [ ] Linear Regression is appropriate. The residuals have constant variance.
 
 ### A large company has developed a BI application that generates reports and dashboards using data collected from various operational metrics. The company wants to provide executives with an enhanced experience so they can use natural language to get data from the reports. The company wants the executives to be able ask questions using written and spoken interfaces. Which combination of services can be used to build this conversational interface? (Choose three.)
 
@@ -411,7 +482,7 @@
 - [ ] Increasing the number of epochs.
 - [ ] Adding another layer with the 100 neurons.
 
-### A company wants to predict the sale prices of houses based on available historical sales data. The target variable in the company's dataset is the sale price. The features include parameters such as the lot size, living area measurements, non-living area measurements, number of bedrooms, number of bathrooms, year built, and postal code. The company wants to use multi-variable linear regression to predict house sale prices. Which step should a machine learning specialist take to remove features that are irrelevant for the analysis and reduce the model's complexity?
+### A company wants to predict the sale prices of houses based on available historical sales data. The target variable in the company's dataset is the sale price. The features include parameters such as the lot size, living area measurements, non-living area measurements, number of bedrooms, number of bathrooms, year built, and postal code. The company wants to use multi-variable Linear Regression to predict house sale prices. Which step should a machine learning specialist take to remove features that are irrelevant for the analysis and reduce the model's complexity?
 
 - [ ] Plot a histogram of the features and compute their standard deviation. Remove features with high variance.
 - [ ] Plot a histogram of the features and compute their standard deviation. Remove features with low variance.
@@ -421,9 +492,9 @@
 ### A Machine Learning Specialist is given a structured dataset on the shopping habits of a company's customer base. The dataset contains thousands of columns of data and hundreds of numerical columns for each customer. The Specialist wants to identify whether there are natural groupings for these columns across all customers and visualize the results as quickly as possible. What approach should the Specialist take to accomplish these tasks?
 
 - [x] Embed the numerical features using the t-distributed stochastic neighbor embedding (t-SNE) algorithm and create a scatter plot.
-- [ ] Run k-means using the Euclidean distance measure for different values of k and create an elbow plot.
+- [ ] Run K-means using the Euclidean distance measure for different values of k and create an elbow plot.
 - [ ] Embed the numerical features using the t-distributed stochastic neighbor embedding (t-SNE) algorithm and create a line graph.
-- [ ] Run k-means using the Euclidean distance measure for different values of k and create box plots for each numerical column within each cluster.
+- [ ] Run K-means using the Euclidean distance measure for different values of k and create box plots for each numerical column within each cluster.
 
 ### A Machine Learning Specialist is planning to create a long-running Amazon EMR cluster. The EMR cluster will have 1 master node, 10 core nodes, and 20 task nodes. To save on costs, the Specialist will use Spot Instances in the EMR cluster. Which nodes should the Specialist launch on Spot Instances?
 
@@ -434,9 +505,9 @@
 
 ### A manufacturer of car engines collects data from cars as they are being driven. The data collected includes timestamp, engine temperature, rotations per minute (RPM), and other sensor readings. The company wants to predict when an engine is going to have a problem, so it can notify drivers in advance to get engine maintenance. The engine data is loaded into a data lake for training. Which is the MOST suitable predictive model that can be deployed into production?
 
-- [x] Add labels over time to indicate which engine faults occur at what time in the future to turn this into a supervised learning problem. Use a recurrent neural network (RNN) to train the model to recognize when an engine might needmaintenance for a certain fault.
-- [ ] This data requires an unsupervised learning algorithm. Use Amazon SageMaker k-means to cluster the data.
-- [ ] Add labels over time to indicate which engine faults occur at what time in the future to turn this into a supervised learning problem. Use a convolutional neural network (CNN) to train the model to recognize when an engine might needmaintenance for a certain fault.
+- [x] Add labels over time to indicate which engine faults occur at what time in the future to turn this into a supervised learning problem. Use a Recurrent Neural Network (RNN) to train the model to recognize when an engine might needmaintenance for a certain fault.
+- [ ] This data requires an unsupervised learning algorithm. Use Amazon SageMaker K-means to cluster the data.
+- [ ] Add labels over time to indicate which engine faults occur at what time in the future to turn this into a supervised learning problem. Use a Convolutional Neural Network (CNN) to train the model to recognize when an engine might needmaintenance for a certain fault.
 - [ ] This data is already formulated as a time series. Use Amazon SageMaker seq2seq to model the time series.
 
 ### A Machine Learning Specialist wants to bring a custom algorithm to Amazon SageMaker. The Specialist implements the algorithm in a Docker container supported by Amazon SageMaker. How should the Specialist package the Docker container so that Amazon SageMaker can launch the training correctly?
@@ -463,10 +534,10 @@
 
 ### A real estate company wants to create a machine learning model for predicting housing prices based on a historical dataset. The dataset contains 32 features. Which model will meet the business requirement?
 
-- [ ] Logistic regression.
-- [x] Linear regression.
+- [ ] Logistic Regression.
+- [x] Linear Regression.
 - [ ] K-means.
-- [ ] Principal component analysis (PCA).
+- [ ] Principal Component Analysis (PCA).
 
 ### A Machine Learning Specialist is applying a linear least squares regression model to a dataset with 1,000 records and 50 features. Prior to training, the ML Specialist notices that two features are perfectly linearly dependent. Why could this be an issue for the linear least squares regression model?
 
@@ -488,8 +559,8 @@
 
 - [ ] Run self-correlation on all features and remove highly correlated features.
 - [ ] Normalize all numerical values to be between 0 and 1.
-- [x] Use an autoencoder or principal component analysis (PCA) to replace original features with new features.
-- [ ] Cluster raw data using k-means and use sample data from each cluster to build a new dataset.
+- [x] Use an autoencoder or Principal Component Analysis (PCA) to replace original features with new features.
+- [ ] Cluster raw data using K-means and use sample data from each cluster to build a new dataset.
 
 ### A Data Scientist is training a multilayer perception (MLP) on a dataset with multiple classes. The target class of interest is unique compared to the other classes within the dataset, but it does not achieve and acceptable recall metric. The Data Scientist has already tried varying the number and size of the MLP's hidden layers, which has not significantly improved the results. A solution to improve recall must be implemented as quickly as possible. Which techniques should be used to meet these requirements?
 
@@ -513,7 +584,7 @@
 - [ ] Amazon Athena.
 - [ ] Amazon ES.
 
-### A Machine Learning Specialist previously trained a logistic regression model using scikit-learn on a local machine, and the Specialist now wants to deploy it to production for inference only. What steps should be taken to ensure Amazon SageMaker can host a model that was trained locally?
+### A Machine Learning Specialist previously trained a Logistic Regression model using scikit-learn on a local machine, and the Specialist now wants to deploy it to production for inference only. What steps should be taken to ensure Amazon SageMaker can host a model that was trained locally?
 
 - [x] Build the Docker image with the inference code. Tag the Docker image with the registry hostname and upload it to Amazon ECR.
 - [ ] Serialize the trained model so the format is compressed for deployment. Tag the Docker image with the registry hostname and upload it to Amazon S3.
@@ -549,7 +620,7 @@
 - [ ] Reduce the learning rate and run the training process until the training loss stops decreasing.
 - [x] Initialize the words by word2vec embeddings pretrained on a large collection of news articles related to the energy sector.
 
-### A Data Scientist is building a model to predict customer churn using a dataset of 100 continuous numerical features. The Marketing team has not provided any insight about which features are relevant for churn prediction. The Marketing team wants to interpret the model and see the direct impact of relevant features on the model outcome. While training a logistic regression model, the Data Scientist observes that there is a wide gap between the training and validation set accuracy. Which methods can the Data Scientist use to improve the model performance and satisfy the Marketing team's needs? (Choose two.)
+### A Data Scientist is building a model to predict customer churn using a dataset of 100 continuous numerical features. The Marketing team has not provided any insight about which features are relevant for churn prediction. The Marketing team wants to interpret the model and see the direct impact of relevant features on the model outcome. While training a Logistic Regression model, the Data Scientist observes that there is a wide gap between the training and validation set accuracy. Which methods can the Data Scientist use to improve the model performance and satisfy the Marketing team's needs? (Choose two.)
 
 - [x] Add L1 regularization to the classifier.
 - [ ] Add features to the dataset.
@@ -560,7 +631,7 @@
 ### An aircraft engine manufacturing company is measuring 200 performance metrics in a time-series. Engineers want to detect critical manufacturing defects in near-real time during testing. All of the data needs to be stored for offline analysis. What approach would be the MOST effective to perform near-real time defect detection?
 
 - [ ] Use AWS IoT Analytics for ingestion, storage, and further analysis. Use Jupyter notebooks from within AWS IoT Analytics to carry out analysis for anomalies.
-- [ ] Use Amazon S3 for ingestion, storage, and further analysis. Use an Amazon EMR cluster to carry out Apache Spark ML k-means clustering to determine anomalies.
+- [ ] Use Amazon S3 for ingestion, storage, and further analysis. Use an Amazon EMR cluster to carry out Apache Spark ML K-means clustering to determine anomalies.
 - [ ] Use Amazon S3 for ingestion, storage, and further analysis. Use the Amazon SageMaker Random Cut Forest (RCF) algorithm to determine anomalies.
 - [x] Use Amazon Kinesis Data Firehose for ingestion and Amazon Kinesis Data Analytics Random Cut Forest (RCF) to perform anomaly detection. Use Kinesis Data Firehose to store data in Amazon S3 for further analysis.
 
@@ -582,15 +653,15 @@
 
 - [ ] The factorization machines (FM) algorithm.
 - [ ] The Latent Dirichlet Allocation (LDA) algorithm.
-- [x] The principal component analysis (PCA) algorithm.
-- [x] The k-means algorithm.
+- [x] The Principal Component Analysis (PCA) algorithm.
+- [x] The K-means algorithm.
 - [ ] The Random Cut Forest (RCF) algorithm.
 
 ### A large consumer goods manufacturer has the following products on sale: 34 different toothpaste variants. 48 different toothbrush variants. 43 different mouthwash variants. The entire sales history of all these products is available in Amazon S3. Currently, the company is using custom-built autoregressive integrated moving average (ARIMA) models to forecast demand for these products. The company wants to predict the demand for a new product that will soon be launched. Which solution should a Machine Learning Specialist apply?
 
 - [ ] Train a custom ARIMA model to forecast demand for the new product.
 - [x] Train an Amazon SageMaker DeepAR algorithm to forecast demand for the new product.
-- [ ] Train an Amazon SageMaker k-means clustering algorithm to forecast demand for the new product.
+- [ ] Train an Amazon SageMaker K-means clustering algorithm to forecast demand for the new product.
 - [ ] Train a custom XGBoost model to forecast demand for the new product.
 
 ### A Machine Learning Specialist uploads a dataset to an Amazon S3 bucket protected with server-side encryption using AWS KMS. How should the ML Specialist define the Amazon SageMaker notebook instance so it can read the same dataset from Amazon S3?
@@ -624,8 +695,8 @@
 ### A Machine Learning Specialist is working with a large cybersecurity company that manages security events in real time for companies around the world. The cybersecurity company wants to design a solution that will allow it to use machine learning to score malicious events as anomalies on the data as it is being ingested. The company also wants be able to save the results in its data lake for later processing and analysis. What is the MOST efficient way to accomplish these tasks?
 
 - [x] Ingest the data using Amazon Kinesis Data Firehose, and use Amazon Kinesis Data Analytics Random Cut Forest (RCF) for anomaly detection. Then use Kinesis Data Firehose to stream the results to Amazon S3.
-- [ ] Ingest the data into Apache Spark Streaming using Amazon EMR, and use Spark MLlib with k-means to perform anomaly detection. Then store the results in an Apache Hadoop Distributed File System (HDFS) using Amazon EMR witha replication factor of three as the data lake.
-- [ ] Ingest the data and store it in Amazon S3. Use AWS Batch along with the AWS Deep Learning AMIs to train a k-means model using TensorFlow on the data in Amazon S3.
+- [ ] Ingest the data into Apache Spark Streaming using Amazon EMR, and use Spark MLlib with K-means to perform anomaly detection. Then store the results in an Apache Hadoop Distributed File System (HDFS) using Amazon EMR witha replication factor of three as the data lake.
+- [ ] Ingest the data and store it in Amazon S3. Use AWS Batch along with the AWS Deep Learning AMIs to train a K-means model using TensorFlow on the data in Amazon S3.
 - [ ] Ingest the data and store it in Amazon S3. Have an AWS Glue job that is triggered on demand transform the new data. Then use the built-in Random Cut Forest (RCF) model within Amazon SageMaker to detect anomalies in the data.
 
 ### A Data Scientist wants to gain real-time insights into a data stream of GZIP files. Which solution would allow the use of SQL to query the stream with the LEAST latency?
@@ -638,9 +709,9 @@
 ### A retail company intends to use machine learning to categorize new products. A labeled dataset of current products was provided to the Data Science team. The dataset includes 1,200 products. The labeled dataset has 15 features for each product such as title dimensions, weight, and price. Each product is labeled as belonging to one of six categories such as books, games, electronics, and movies. Which model should be used for categorizing new products using the provided dataset for training?
 
 - [x] AnXGBoost model where the objective parameter is set to multi:softmax.
-- [ ] A deep convolutional neural network (CNN) with a softmax activation function for the last layer.
+- [ ] A deep Convolutional Neural Network (CNN) with a softmax activation function for the last layer.
 - [ ] A regression forest where the number of trees is set equal to the number of product categories.
-- [ ] A DeepAR forecasting model based on a recurrent neural network (RNN).
+- [ ] A DeepAR forecasting model based on a Recurrent Neural Network (RNN).
 
 ### A Machine Learning Specialist is assigned a TensorFlow project using Amazon SageMaker for training, and needs to continue working for an extended period with no Wi-Fi access. Which approach should the Specialist use to continue working?
 
@@ -724,10 +795,10 @@
 
 ### A manufacturing company has a large set of labeled historical sales data. The manufacturer would like to predict how many units of a particular part should be produced each quarter. Which machine learning approach should be used to solve this problem?
 
-- [ ] Logistic regression.
+- [ ] Logistic Regression.
 - [ ] Random Cut Forest (RCF).
-- [ ] Principal component analysis (PCA).
-- [x] Linear regression.
+- [ ] Principal Component Analysis (PCA).
+- [x] Linear Regression.
 
 ### An online reseller has a large, multi-column dataset with one column missing 30% of its data. A Machine Learning Specialist believes that certain columns in the dataset could be used to reconstruct the missing data. Which reconstruction approach should the Specialist use to preserve the integrity of the dataset?
 
@@ -768,11 +839,11 @@ Parquet or ORC format and writes the data to a processed data location inAmazon 
 Parquet or ORC format and inserts it into an Amazon RDS PostgreSQLdatabase. Have the Analysts query and run dashboards from the RDS database.
 - [ ] Use Amazon Kinesis Data Analytics to ingest the streaming data and perform real-time SQL queries to convert the records to Apache Parquet before delivering to Amazon S3. Have the Analysts query the data directly from Amazon S3using Amazon Athena and connect to BI tools using the Athena Java Database Connectivity (JDBC) connector.
 
-### A Machine Learning Specialist is building a prediction model for a large number of features using linear models, such as linear regression and logistic regression. During exploratory data analysis, the Specialist observes that many features are highly correlated with each other. This may make the model unstable. What should be done to reduce the impact of having such a large number of features?
+### A Machine Learning Specialist is building a prediction model for a large number of features using linear models, such as Linear Regression and Logistic Regression. During exploratory data analysis, the Specialist observes that many features are highly correlated with each other. This may make the model unstable. What should be done to reduce the impact of having such a large number of features?
 
 - [ ] Perform one-hot encoding on highly correlated features.
 - [ ] Use matrix multiplication on highly correlated features.
-- [x] Create a new feature space using principal component analysis (PCA).
+- [x] Create a new feature space using Principal Component Analysis (PCA).
 - [ ] Apply the Pearson correlation coefficient.
 
 ### A Machine Learning Specialist is implementing a full Bayesian network on a dataset that describes public transit in New York City. One of the random variables is discrete, and represents the number of minutes New Yorkers wait for a bus given that the buses cycle every 10 minutes, with a mean of 3 minutes. Which prior probability distribution should the ML Specialist use for this variable?
@@ -873,9 +944,9 @@ for delivery to Amazon ES for clickstream analytics; Amazon EMR togenerate perso
 ### The chief editor for a product catalog wants the research and development team to build a machine learning system that can be used to detect whether or not individuals in a collection of images are wearing the company's retail brand. The team has a set of training data. Which machine learning algorithm should the researchers use that BEST meets their requirements?
 
 - [ ] Latent Dirichlet Allocation (LDA).
-- [ ] Recurrent neural network (RNN).
+- [ ] Recurrent Neural Network (RNN).
 - [ ] K-means.
-- [x] Convolutional neural network (CNN).
+- [x] Convolutional Neural Network (CNN).
 
 ### A retail company is using Amazon Personalize to provide personalized product recommendations for its customers during a marketing campaign. The company sees a significant increase in sales of recommended items to existing customers immediately after deploying a new solution version, but these sales decrease a short time after deployment. Only historical data from before the marketing campaign is available for training. How should a data scientist adjust the solution?
 
@@ -940,7 +1011,7 @@ for delivery to Amazon ES for clickstream analytics; Amazon EMR togenerate perso
 ### A data scientist has developed a machine learning translation model for English to Japanese by using Amazon SageMaker's built-in seq2seq algorithm with 500,000 aligned sentence pairs. While testing with sample sentences, the data scientist finds that the translation quality is reasonable for an example as short as five words. However, the quality becomes unacceptable if the sentence is 100 words long. Which action will resolve the problem?
 
 - [ ] Change preprocessing to use n-grams.
-- [ ] Add more nodes to the recurrent neural network (RNN) than the largest sentence's word count.
+- [ ] Add more nodes to the Recurrent Neural Network (RNN) than the largest sentence's word count.
 - [x] Adjust hyperparameters related to the attention mechanism.
 - [ ] Choose a different weight initialization type.
 
@@ -952,7 +1023,7 @@ for delivery to Amazon ES for clickstream analytics; Amazon EMR togenerate perso
 - [x] Area under the precision-recall curve.
 - [x] True positive rate.
 
-### A machine learning specialist is developing a proof of concept for government users whose primary concern is security. The specialist is using Amazon SageMaker to train a convolutional neural network (CNN) model for a photo classifier application. The specialist wants to protect the data so that it cannot be accessed and transferred to a remote host by malicious code accidentally installed on the training container. Which action will provide the MOST secure protection?
+### A machine learning specialist is developing a proof of concept for government users whose primary concern is security. The specialist is using Amazon SageMaker to train a Convolutional Neural Network (CNN) model for a photo classifier application. The specialist wants to protect the data so that it cannot be accessed and transferred to a remote host by malicious code accidentally installed on the training container. Which action will provide the MOST secure protection?
 
 - [ ] Remove Amazon S3 access permissions from the SageMaker execution role.
 - [ ] Encrypt the weights of the CNN model.
