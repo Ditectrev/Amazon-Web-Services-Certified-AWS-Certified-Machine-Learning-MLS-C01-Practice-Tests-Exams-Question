@@ -1,4 +1,4 @@
-# ⬆️ Amazon Web Services Certified (AWS Certified) Machine Learning (MLS-C01) Practice Tests Exams Questions & Answers
+# ⬆️ Amazon Web Services Certified (AWS Certified) Machine Learning Specialty (MLS-C01) Practice Tests Exams Questions & No Answers
 
 ![Promotional image](images/promotional.png)
 
@@ -8,9 +8,9 @@
 
 🛍️ Alternatively, you can buy the PDF with those questions on [Etsy](https://ditectrev.etsy.com/listing/1580957028).
 
-## ✨ This course is unlike any Amazon Web Services Certified (AWS Certified) Machine Learning (MLS-C01) course you will find online
+## ✨ This course is unlike any Amazon Web Services Certified (AWS Certified) Machine Learning Specialty (MLS-C01) course you will find online
 
-✋ Join a live online community and a course taught by industry experts and pass the Amazon Web Services Certified (AWS Certified) Machine Learning (MLS-C01) confidently. We aim to build an ecosystem of Information Technology (IT) certifications and online courses in cooperation with the technology industry. We believe it will give our students 100% confidence in the pacing market in an open-source environment. We are just at the beginning of our way, so it's even better for you to join now!
+✋ Join a live online community and a course taught by industry experts and pass the Amazon Web Services Certified (AWS Certified) Machine Learning Specialty (MLS-C01) confidently. We aim to build an ecosystem of Information Technology (IT) certifications and online courses in cooperation with the technology industry. We believe it will give our students 100% confidence in the pacing market in an open-source environment. We are just at the beginning of our way, so it's even better for you to join now!
 
 [![Join our Discord](images/discord.png 'Join our Discord')](https://discord.gg/RFjtXKfJy3)
 
@@ -44,7 +44,7 @@
    - **Much More!**
 4. Questions are similar to the actual exam, without duplications (like in other courses ;-)).
 5. The Practice Tests Exams simulate the actual exam's content, timing, and percentage required to pass the exam.
-6. This course is **not** an Amazon Web Services Certified (AWS Certified) Machine Learning (MLS-C01) Exam Dump. Some people use brain dumps or exam dumps, but that's absurd, which we don't practice.
+6. This course is **not** an Amazon Web Services Certified (AWS Certified) Machine Learning Specialty (MLS-C01) Exam Dump. Some people use brain dumps or exam dumps, but that's absurd, which we don't practice.
 7. 138 **unique** questions.
 
 ## ☝️ Course Updates
