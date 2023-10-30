@@ -59,7 +59,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ## Who this course is for:
 
-- 👨‍🎓 Students preparing for the Amazon Web Services Certified (AWS Certified) Machine Learning (MLS-C01) Exam;
+- 👨‍🎓 Students preparing for the Amazon Web Services Certified (AWS Certified) Machine Learning Specialty (MLS-C01) Exam;
 - 👨‍🎓 Amazon Web Services (AWS) Engineers;
 - 👨‍🎓 Artificial Intelligence (AI) Engineers;
 - 👨‍🎓 Data Scientists;
@@ -72,7 +72,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - 🤩 Excitement to learn!
 - 0️⃣ Prior knowledge is required;
-- ✅ You can pass the Amazon Web Services Certified (AWS Certified) Machine Learning (MLS-C01) Exam solely based on our Practice Tests Exams.
+- ✅ You can pass the Amazon Web Services Certified (AWS Certified) Machine Learning Specialty (MLS-C01) Exam solely based on our Practice Tests Exams.
 
 ## Table of Contents
 
