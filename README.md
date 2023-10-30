@@ -569,7 +569,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A data scientist is developing a pipeline to ingest streaming web traffic data. The data scientist needs to implement a process to identify unusual web traffic patterns as part of the pipeline. The patterns will be used downstream for alerting and incident response. The data scientist has access to unlabeled historic data to use, if needed. The solution needs to do the following: Calculate an anomaly score for each web traffic entry. Adapt unusual event identification to changing web patterns over time. Which approach should the data scientist implement to meet these requirements?
 
-- [ ] Use historic web traffic data to train an anomaly detection model using the Amazon SageMaker Random Cut Forest (RCF) built-in model. Use an Amazon Kinesis Data Stream to process the incoming web traffic data. Attach apreprocessing AWS Lambda function to perform data enrichment by calling the RCF model to calculate the anomaly score for each record.
+- [ ] Use historic web traffic data to train an anomaly detection model using the Amazon SageMaker Random Cut Forest (RCF) built-in model. Use an Amazon Kinesis Data Stream to process the incoming web traffic data. Attach a preprocessing AWS Lambda function to perform data enrichment by calling the RCF model to calculate the anomaly score for each record.
 - [ ] Use historic web traffic data to train an anomaly detection model using the Amazon SageMaker built-in XGBoost model. Use an Amazon Kinesis Data Stream to process the incoming web traffic data. Attach a preprocessing AWSLambda function to perform data enrichment by calling the XGBoost model to calculate the anomaly score for each record.
 - [ ] Collect the streaming data using Amazon Kinesis Data Firehose. Map the delivery stream as an input source for Amazon Kinesis Data Analytics. Write a SQL query to run in real time against the streaming data with the k-NearestNeighbors (kNN) SQL extension to calculate anomaly scores for each record using a tumbling window.
 - [x] Collect the streaming data using Amazon Kinesis Data Firehose. Map the delivery stream as an input source for Amazon Kinesis Data Analytics. Write a SQL query to run in real time against the streaming data with the Amazon RandomCut Forest (RCF) SQL extension to calculate anomaly scores for each record using a sliding window.
@@ -588,7 +588,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A company that promotes healthy sleep patterns by providing cloud-connected devices currently hosts a sleep tracking application on AWS. The application collects device usage information from device users. The company's Data Science team is building a machine learning model to predict if and when a user will stop utilizing the company's devices. Predictions from this model are used by a downstream application that determines the best approach for contacting users. The Data Science team is building multiple versions of the machine learning model to evaluate each version against the company's business goals. To measure long-term effectiveness, the team wants to run multiple versions of the model in parallel for long periods of time, with the ability to control the portion of inferences served by the models. Which solution satisfies these requirements with MINIMAL effort?
 
 - [ ] Build and host multiple models in Amazon SageMaker. Create multiple Amazon SageMaker endpoints, one for each model. Programmatically control invoking different models for inference at the application layer.
-- [x] Build and host multiple models in Amazon SageMaker. Create an Amazon SageMaker endpoint configuration with multiple production variants. Programmatically control the portion of the inferences served by the multiple models byupdating the endpoint configuration.
+- [x] Build and host multiple models in Amazon SageMaker. Create an Amazon SageMaker endpoint configuration with multiple production variants. Programmatically control the portion of the inferences served by the multiple models by updating the endpoint configuration.
 - [ ] Build and host multiple models in Amazon SageMaker Neo to take into account different types of medical devices. Programmatically control which model is invoked for inference based on the medical device type.
 - [ ] Build and host multiple models in Amazon SageMaker. Create a single endpoint that accesses multiple models. Use Amazon SageMaker batch transform to control invoking the different models through the single endpoint.
 
@@ -763,9 +763,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A manufacturer of car engines collects data from cars as they are being driven. The data collected includes timestamp, engine temperature, rotations per minute (RPM), and other sensor readings. The company wants to predict when an engine is going to have a problem, so it can notify drivers in advance to get engine maintenance. The engine data is loaded into a data lake for training. Which is the MOST suitable predictive model that can be deployed into production?
 
-- [x] Add labels over time to indicate which engine faults occur at what time in the future to turn this into a supervised learning problem. Use a Recurrent Neural Network (RNN) to train the model to recognize when an engine might needmaintenance for a certain fault.
+- [x] Add labels over time to indicate which engine faults occur at what time in the future to turn this into a supervised learning problem. Use a Recurrent Neural Network (RNN) to train the model to recognize when an engine might need maintenance for a certain fault.
 - [ ] This data requires an unsupervised learning algorithm. Use Amazon SageMaker K-means to cluster the data.
-- [ ] Add labels over time to indicate which engine faults occur at what time in the future to turn this into a supervised learning problem. Use a Convolutional Neural Network (CNN) to train the model to recognize when an engine might needmaintenance for a certain fault.
+- [ ] Add labels over time to indicate which engine faults occur at what time in the future to turn this into a supervised learning problem. Use a Convolutional Neural Network (CNN) to train the model to recognize when an engine might need maintenance for a certain fault.
 - [ ] This data is already formulated as a time series. Use Amazon SageMaker seq2seq to model the time series.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -933,7 +933,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Write the raw data to Amazon S3. Schedule an AWS Lambda function to submit a Spark step to a persistent Amazon EMR cluster based on the existing schedule. Use the existing PySpark logic to run the ETL job on the EMR cluster. Output the results to a 'processed' location in Amazon S3 that is accessible for downstream use.
 - [x] Write the raw data to Amazon S3. Create an AWS Glue ETL job to perform the ETL processing against the input data. Write the ETL job in PySpark to leverage the existing logic. Create a new AWS Glue trigger to trigger the ETL job based on the existing schedule. Configure the output target of the ETL job to write to a 'processed' location in Amazon S3 that is accessible for downstream use.
-- [ ] Write the raw data to Amazon S3. Schedule an AWS Lambda function to run on the existing schedule and process the input data from Amazon S3. Write the Lambda logic in Python and implement the existing PySpark logic to performthe ETL process. Have the Lambda function output the results to a 'processed' location in Amazon S3 that is accessible for downstream use.
+- [ ] Write the raw data to Amazon S3. Schedule an AWS Lambda function to run on the existing schedule and process the input data from Amazon S3. Write the Lambda logic in Python and implement the existing PySpark logic to perform the ETL process. Have the Lambda function output the results to a 'processed' location in Amazon S3 that is accessible for downstream use.
 - [ ] Use Amazon Kinesis Data Analytics to stream the input data and perform real-time SQL queries against the stream to carry out the required transformations within the stream. Deliver the output results to a 'processed' location in AmazonS3 that is accessible for downstream use.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -943,7 +943,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [x] Use AWS Lambda to trigger an AWS Step Functions workflow to wait for dataset uploads to complete in Amazon S3. Use AWS Glue to join the datasets. Use an Amazon CloudWatch alarm to send an SNS notification to theAdministrator in the case of a failure.
 - [ ] Develop the ETL workflow using AWS Lambda to start an Amazon SageMaker notebook instance. Use a lifecycle configuration script to join the datasets and persist the results in Amazon S3. Use an Amazon CloudWatch alarm to sendan SNS notification to the Administrator in the case of a failure.
 - [ ] Develop the ETL workflow using AWS Batch to trigger the start of ETL jobs when data is uploaded to Amazon S3. Use AWS Glue to join the datasets in Amazon S3. Use an Amazon CloudWatch alarm to send an SNS notification to theAdministrator in the case of a failure.
-- [ ] Use AWS Lambda to chain other Lambda functions to read and join the datasets in Amazon S3 as soon as the data is uploaded to Amazon S3. Use an Amazon CloudWatch alarm to send an SNS notification to the Administrator in thecase of a failure.
+- [ ] Use AWS Lambda to chain other Lambda functions to read and join the datasets in Amazon S3 as soon as the data is uploaded to Amazon S3. Use an Amazon CloudWatch alarm to send an SNS notification to the Administrator in the case of a failure.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1005,7 +1005,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A Machine Learning Specialist is working with a large cybersecurity company that manages security events in real time for companies around the world. The cybersecurity company wants to design a solution that will allow it to use machine learning to score malicious events as anomalies on the data as it is being ingested. The company also wants be able to save the results in its data lake for later processing and analysis. What is the MOST efficient way to accomplish these tasks?
 
 - [x] Ingest the data using Amazon Kinesis Data Firehose, and use Amazon Kinesis Data Analytics Random Cut Forest (RCF) for anomaly detection. Then use Kinesis Data Firehose to stream the results to Amazon S3.
-- [ ] Ingest the data into Apache Spark Streaming using Amazon EMR, and use Spark MLlib with K-means to perform anomaly detection. Then store the results in an Apache Hadoop Distributed File System (HDFS) using Amazon EMR witha replication factor of three as the data lake.
+- [ ] Ingest the data into Apache Spark Streaming using Amazon EMR, and use Spark MLlib with K-means to perform anomaly detection. Then store the results in an Apache Hadoop Distributed File System (HDFS) using Amazon EMR with a replication factor of three as the data lake.
 - [ ] Ingest the data and store it in Amazon S3. Use AWS Batch along with the AWS Deep Learning AMIs to train a K-means model using TensorFlow on the data in Amazon S3.
 - [ ] Ingest the data and store it in Amazon S3. Have an AWS Glue job that is triggered on demand transform the new data. Then use the built-in Random Cut Forest (RCF) model within Amazon SageMaker to detect anomalies in the data.
 
@@ -1115,8 +1115,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### An office security agency conducted a successful pilot using 100 cameras installed at key locations within the main office. Images from the cameras were uploaded to Amazon S3 and tagged using Amazon Rekognition, and the results were stored in Amazon ES. The agency is now looking to expand the pilot into a full production system using thousands of video cameras in its office locations globally. The goal is to identify activities performed by non-employees in real time Which solution should the agency consider?
 
-- [x] Use a proxy server at each local office and for each camera, and stream the RTSP feed to a unique Amazon Kinesis Video Streams video stream. On each stream, use Amazon Rekognition Video and create a stream processor todetect faces from a collection of known employees, and alert when non-employees are detected.
-- [ ] Use a proxy server at each local office and for each camera, and stream the RTSP feed to a unique Amazon Kinesis Video Streams video stream. On each stream, use Amazon Rekognition Image to detect faces from a collection ofknown employees and alert when non-employees are detected.
+- [x] Use a proxy server at each local office and for each camera, and stream the RTSP feed to a unique Amazon Kinesis Video Streams video stream. On each stream, use Amazon Rekognition Video and create a stream processor to detect faces from a collection of known employees, and alert when non-employees are detected.
+- [ ] Use a proxy server at each local office and for each camera, and stream the RTSP feed to a unique Amazon Kinesis Video Streams video stream. On each stream, use Amazon Rekognition Image to detect faces from a collection of known employees and alert when non-employees are detected.
 - [ ] Install AWS DeepLens cameras and use the DeepLens_Kinesis_Video module to stream video to Amazon Kinesis Video Streams for each camera. On each stream, use Amazon Rekognition Video and create a stream processor to detect faces from a collection on each stream, and alert when non-employees are detected.
 - [ ] Install AWS DeepLens cameras and use the DeepLens_Kinesis_Video module to stream video to Amazon Kinesis Video Streams for each camera. On each stream, run an AWS Lambda function to capture image fragments and then call Amazon Rekognition Image to detect faces from a collection of known employees, and alert when non-employees are detected.
 
@@ -1235,8 +1235,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Machine Learning team uses Amazon SageMaker to train an Apache MXNet handwritten digit classifier model using a research dataset. The team wants to receive a notification when the model is overfitting. Auditors want to view the Amazon SageMaker log activity report to ensure there are no unauthorized API calls. What should the Machine Learning team do to address the requirements with the least amount of code and fewest steps?
 
-- [ ] Implement an AWS Lambda function to log Amazon SageMaker API calls to Amazon S3. Add code to push a custom metric to Amazon CloudWatch. Create an alarm in CloudWatch with Amazon SNS to receive a notification when themodel is overfitting.
-- [x] Use AWS CloudTrail to log Amazon SageMaker API calls to Amazon S3. Add code to push a custom metric to Amazon CloudWatch. Create an alarm in CloudWatch with Amazon SNS to receive a notification when the model isoverfitting.
+- [ ] Implement an AWS Lambda function to log Amazon SageMaker API calls to Amazon S3. Add code to push a custom metric to Amazon CloudWatch. Create an alarm in CloudWatch with Amazon SNS to receive a notification when the model is overfitting.
+- [x] Use AWS CloudTrail to log Amazon SageMaker API calls to Amazon S3. Add code to push a custom metric to Amazon CloudWatch. Create an alarm in CloudWatch with Amazon SNS to receive a notification when the model is overfitting.
 - [ ] Implement an AWS Lambda function to log Amazon SageMaker API calls to AWS CloudTrail. Add code to push a custom metric to Amazon CloudWatch.
 - [ ] Use AWS CloudTrail to log Amazon SageMaker API calls to Amazon S3. Set up Amazon SNS to receive a notification when the model is overfitting.
 
@@ -1254,12 +1254,12 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A Machine Learning Specialist working for an online fashion company wants to build a data ingestion solution for the company's Amazon S3-based data lake. The Specialist wants to create a set of ingestion mechanisms that will enable future capabilities comprised of: Real-time analytics. Interactive analytics of historical data. Clickstream analytics. Product recommendations. Which services should the Specialist use?
 
 - [x] AWS Glue as the data catalog; Amazon Kinesis Data Streams and Amazon Kinesis Data Analytics for real-time data insights; Amazon Kinesis Data Firehose
-for delivery to Amazon ES for clickstream analytics; Amazon EMR togenerate personalized product recommendations.
+for delivery to Amazon ES for clickstream analytics; Amazon EMR to generate personalized product recommendations.
 - [ ] Amazon Athena as the data catalog: Amazon Kinesis Data Streams and Amazon Kinesis Data Analytics for near-real-time data insights; Amazon Kinesis
-Data Firehose for clickstream analytics; AWS Glue to generate personalizedproduct recommendations.
+Data Firehose for clickstream analytics; AWS Glue to generate personalized product recommendations.
 - [ ] AWS Glue as the data catalog; Amazon Kinesis Data Streams and Amazon Kinesis Data Analytics for historical data insights; Amazon Kinesis Data Firehose
-for delivery to Amazon ES for clickstream analytics; Amazon EMR togenerate personalized product recommendations.
-- [ ] Amazon Athena as the data catalog; Amazon Kinesis Data Streams and Amazon Kinesis Data Analytics for historical data insights; Amazon DynamoDB streams for clickstream analytics; AWS Glue to generate personalized productrecommendations.
+for delivery to Amazon ES for clickstream analytics; Amazon EMR to generate personalized product recommendations.
+- [ ] Amazon Athena as the data catalog; Amazon Kinesis Data Streams and Amazon Kinesis Data Analytics for historical data insights; Amazon DynamoDB streams for clickstream analytics; AWS Glue to generate personalized product recommendations.
 
 **[⬆ Back to Top](#table-of-contents)**
 
