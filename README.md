@@ -335,10 +335,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ![Question 13](images/question13.jpg)
 
-- [ ] The model predicts both the trend and the seasonality well.
+- [x] The model predicts both the trend and the seasonality well.
 - [ ] The model predicts the trend well, but not the seasonality.
 - [ ] The model predicts the seasonality well, but not the trend.
-- [x] The model does not predict the trend or the seasonality well.
+- [ ] The model does not predict the trend or the seasonality well.
 
 **[⬆ Back to Top](#table-of-contents)**
 
