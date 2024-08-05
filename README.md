@@ -125,7 +125,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 33  | [A gaming company has launched an online game where people can start playing for free, but they need to pay if they choose to use certain features. The company needs to build an automated system to predict whether or not a new user will become a paid user within 1 year. The company has gathered a labeled dataset from 1 million users. The training dataset consists of 1,000 positive samples (from users who ended up paying within 1 year) and 999,000 negative samples (from users who did not use any paid features). Each data sample consists of 200 features including user age, device, location, and play patterns. Using this dataset for training, the Data Science team trained a random forest model that converged with over 99% accuracy on the training set. However, the prediction results on a test dataset were not satisfactory. Which of the following approaches should the Data Science team take to mitigate this issue? (Choose two.)](#a-gaming-company-has-launched-an-online-game-where-people-can-start-playing-for-free-but-they-need-to-pay-if-they-choose-to-use-certain-features-the-company-needs-to-build-an-automated-system-to-predict-whether-or-not-a-new-user-will-become-a-paid-user-within-1-year-the-company-has-gathered-a-labeled-dataset-from-1-million-users-the-training-dataset-consists-of-1000-positive-samples-from-users-who-ended-up-paying-within-1-year-and-999000-negative-samples-from-users-who-did-not-use-any-paid-features-each-data-sample-consists-of-200-features-including-user-age-device-location-and-play-patterns-using-this-dataset-for-training-the-data-science-team-trained-a-random-forest-model-that-converged-with-over-99-accuracy-on-the-training-set-however-the-prediction-results-on-a-test-dataset-were-not-satisfactory-which-of-the-following-approaches-should-the-data-science-team-take-to-mitigate-this-issue-choose-two)
 | 34  | [A Data Scientist is developing a machine learning model to predict future patient outcomes based on information collected about each patient and their treatment plans. The model should output a continuous value as its prediction. The data available includes labeled outcomes for a set of 4,000 patients. The study was conducted on a group of individuals over the age of 65 who have a particular disease that is known to worsen with age. Initial models have performed poorly. While reviewing the underlying data, the Data Scientist notices that, out of 4,000 patient observations, there are 450 where the patient age has been input as 0. The other features for these observations appear normal compared to the rest of the sample population. How should the Data Scientist correct this issue?](#a-data-scientist-is-developing-a-machine-learning-model-to-predict-future-patient-outcomes-based-on-information-collected-about-each-patient-and-their-treatment-plans-the-model-should-output-a-continuous-value-as-its-prediction-the-data-available-includes-labeled-outcomes-for-a-set-of-4000-patients-the-study-was-conducted-on-a-group-of-individuals-over-the-age-of-65-who-have-a-particular-disease-that-is-known-to-worsen-with-age-initial-models-have-performed-poorly-while-reviewing-the-underlying-data-the-data-scientist-notices-that-out-of-4000-patient-observations-there-are-450-where-the-patient-age-has-been-input-as-0-the-other-features-for-these-observations-appear-normal-compared-to-the-rest-of-the-sample-population-how-should-the-data-scientist-correct-this-issue)
 | 35  | [A Data Science team is designing a dataset repository where it will store a large amount of training data commonly used in its machine learning models. As Data Scientists may create an arbitrary number of new datasets every day, the solution has to scale automatically and be cost-effective. Also, it must be possible to explore the data using SQL. Which storage scheme is MOST adapted to this scenario?](#a-data-science-team-is-designing-a-dataset-repository-where-it-will-store-a-large-amount-of-training-data-commonly-used-in-its-machine-learning-models-as-data-scientists-may-create-an-arbitrary-number-of-new-datasets-every-day-the-solution-has-to-scale-automatically-and-be-cost-effective-also-it-must-be-possible-to-explore-the-data-using-sql-which-storage-scheme-is-most-adapted-to-this-scenario)
-| 36  | [Tom has been tasked to install Check Point R80 in a distributed deployment. Before Tom installs the systems this way, how many machines will he need if he does NOT include a SmartConsole machine in his calculations?](#tom-has-been-tasked-to-install-check-point-r80-in-a-distributed-deployment-before-tom-installs-the-systems-this-way-how-many-machines-will-he-need-if-he-does-not-include-a-smartconsole-machine-in-his-calculations)
+| 36  | [PLACEHOLDER](#placeholder)
 | 37  | [Which characteristic applies to a catalog backup?](#which-characteristic-applies-to-a-catalog-backup)
 | 38  | [A data scientist is developing a pipeline to ingest streaming web traffic data. The data scientist needs to implement a process to identify unusual web traffic patterns as part of the pipeline. The patterns will be used downstream for alerting and incident response. The data scientist has access to unlabeled historic data to use, if needed. The solution needs to do the following: Calculate an anomaly score for each web traffic entry. Adapt unusual event identification to changing web patterns over time. Which approach should the data scientist implement to meet these requirements?](#a-data-scientist-is-developing-a-pipeline-to-ingest-streaming-web-traffic-data-the-data-scientist-needs-to-implement-a-process-to-identify-unusual-web-traffic-patterns-as-part-of-the-pipeline-the-patterns-will-be-used-downstream-for-alerting-and-incident-response-the-data-scientist-has-access-to-unlabeled-historic-data-to-use-if-needed-the-solution-needs-to-do-the-following-calculate-an-anomaly-score-for-each-web-traffic-entry-adapt-unusual-event-identification-to-changing-web-patterns-over-time-which-approach-should-the-data-scientist-implement-to-meet-these-requirements)
 | 39  | [A Data Scientist received a set of insurance records, each consisting of a record ID, the final outcome among 200 categories, and the date of the final outcome. Some partial information on claim contents is also provided, but only for a few of the 200 categories. For each outcome category, there are hundreds of records distributed over the past 3 years. The Data Scientist wants to predict how many claims to expect in each category from month to month, a few months in advance. What type of machine learning model should be used?](#a-data-scientist-received-a-set-of-insurance-records-each-consisting-of-a-record-id-the-final-outcome-among-200-categories-and-the-date-of-the-final-outcome-some-partial-information-on-claim-contents-is-also-provided-but-only-for-a-few-of-the-200-categories-for-each-outcome-category-there-are-hundreds-of-records-distributed-over-the-past-3-years-the-data-scientist-wants-to-predict-how-many-claims-to-expect-in-each-category-from-month-to-month-a-few-months-in-advance-what-type-of-machine-learning-model-should-be-used)
@@ -233,9 +233,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ![Question 1](images/question1.jpg)
 
-- [x] The model is 86% accurate and the cost incurred by the company as a result of false negatives is less than the false positives.
+- [ ] The model is 86% accurate and the cost incurred by the company as a result of false negatives is less than the false positives.
 - [ ] The precision of the model is 86%, which is less than the accuracy of the model.
-- [ ] The model is 86% accurate and the cost incurred by the company as a result of false positives is less than the false negatives.
+- [x] The model is 86% accurate and the cost incurred by the company as a result of false positives is less than the false negatives.
 - [ ] The precision of the model is 86%, which is greater than the accuracy of the model.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -252,9 +252,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A Mobile Network Operator is building an analytics platform to analyze and optimize a company's operations using Amazon Athena and Amazon S3. The source systems send data in .CSV format in real time. The Data Engineering team wants to transform the data to the Apache Parquet format before storing it on Amazon S3. Which solution takes the LEAST effort to implement?
 
 - [ ] Ingest .CSV data using Apache Kafka Streams on Amazon EC2 instances and use Kafka Connect S3 to serialize data as Parquet
-- [x] Ingest .CSV data from Amazon Kinesis Data Streams and use Amazon Glue to convert data into Parquet.
+- [ ] Ingest .CSV data from Amazon Kinesis Data Streams and use Amazon Glue to convert data into Parquet.
 - [ ] Ingest .CSV data using Apache Spark Structured Streaming in an Amazon EMR cluster and use Apache Spark to convert data into Parquet.
-- [ ] Ingest .CSV data from Amazon Kinesis Data Streams and use Amazon Kinesis Data Firehose to convert data into Parquet.
+- [x] Ingest .CSV data from Amazon Kinesis Data Streams and use Amazon Kinesis Data Firehose to convert data into Parquet.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -546,9 +546,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A Data Scientist is developing a machine learning model to predict future patient outcomes based on information collected about each patient and their treatment plans. The model should output a continuous value as its prediction. The data available includes labeled outcomes for a set of 4,000 patients. The study was conducted on a group of individuals over the age of 65 who have a particular disease that is known to worsen with age. Initial models have performed poorly. While reviewing the underlying data, the Data Scientist notices that, out of 4,000 patient observations, there are 450 where the patient age has been input as 0. The other features for these observations appear normal compared to the rest of the sample population. How should the Data Scientist correct this issue?
 
 - [ ] Drop all records from the dataset where age has been set to 0.
-- [ ] Replace the age field value for records with a value of 0 with the mean or median value from the dataset.
+- [x] Replace the age field value for records with a value of 0 with the mean or median value from the dataset.
 - [ ] Drop the age feature from the dataset and train the model using the rest of the features.
-- [x] Use K-means clustering to handle missing features.
+- [ ] Use K-means clustering to handle missing features.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -561,12 +561,12 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Tom has been tasked to install Check Point R80 in a distributed deployment. Before Tom installs the systems this way, how many machines will he need if he does NOT include a SmartConsole machine in his calculations?
+### PLACEHOLDER
 
-- [ ] One machine, but it needs to be installed using SecurePlatform for compatibility purposes.
-- [ ] One machine.
-- [x] Two machines.
-- [ ] Three machines.
+- [ ] One.
+- [ ] Two.
+- [ ] Three.
+- [ ] Four.
 
 **[⬆ Back to Top](#table-of-contents)**
 
