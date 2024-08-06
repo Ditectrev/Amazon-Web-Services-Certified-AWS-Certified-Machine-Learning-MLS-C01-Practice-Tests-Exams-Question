@@ -1137,8 +1137,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A Marketing Manager at a pet insurance company plans to launch a targeted marketing campaign on social media to acquire new customers. Currently, the company has the following data in Amazon Aurora: Profiles for all past and existing customers. Profiles for all past and existing insured pets. Policy-level information. Premiums received Claims paid. What steps should be taken to implement a machine learning model to identify potential new customers on social media?
 
 - [ ] Use regression on customer profile data to understand key characteristics of consumer segments. Find similar profiles on social media.
-- [ ] Use clustering on customer profile data to understand key characteristics of consumer segments. Find similar profiles on social media.
-- [x] Use a recommendation engine on customer profile data to understand key characteristics of consumer segments. Find similar profiles on social media.
+- [x] Use clustering on customer profile data to understand key characteristics of consumer segments. Find similar profiles on social media.
+- [ ] Use a recommendation engine on customer profile data to understand key characteristics of consumer segments. Find similar profiles on social media.
 - [ ] Use a decision tree classifier engine on customer profile data to understand key characteristics of consumer segments. Find similar profiles on social media.
 
 **[⬆ Back to Top](#table-of-contents)**
