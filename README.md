@@ -45,7 +45,7 @@
 4. Questions are similar to the actual exam, without duplications (like in other courses ;-)).
 5. The Practice Tests Exams simulate the actual exam's content, timing, and percentage required to pass the exam.
 6. This course is **not** an Amazon Web Services Certified (AWS Certified) Machine Learning Specialty (MLS-C01) Exam Dump. Some people use brain dumps or exam dumps, but that's absurd, which we don't practice.
-7. 138 **unique** questions.
+7. 137 **unique** questions.
 
 ## ☝️ Course Updates
 
