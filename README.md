@@ -339,9 +339,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Machine Learning Specialist receives customer data for an online shopping website. The data includes demographics, past visits, and locality information. The Specialist must develop a machine learning approach to identify the customer shopping patterns, preferences, and trends to enhance the website-for better service and smart recommendations. Which solution should the Specialist recommend?
 
-- [ ] Latent Dirichlet Allocation (LDA) for the given collection of discrete data to identify patterns in the customer database.
+- [x] Latent Dirichlet Allocation (LDA) for the given collection of discrete data to identify patterns in the customer database.
 - [ ] A neural network with a minimum of three layers and random initial weights to identify patterns in the customer database.
-- [x] Collaborative filtering based on user interactions and correlations to identify patterns in the customer database.
+- [ ] Collaborative filtering based on user interactions and correlations to identify patterns in the customer database.
 - [ ] Random Cut Forest (RCF) over random subsamples to identify patterns in the customer database.
 
 **[⬆ Back to Top](#table-of-contents)**
