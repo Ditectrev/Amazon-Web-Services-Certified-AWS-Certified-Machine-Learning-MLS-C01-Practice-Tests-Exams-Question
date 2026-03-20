@@ -91,7 +91,7 @@ Yes, we have a little commission from these links. Therefore, by using these lin
 
 - Fix 4 questions with a wrong answer and remove a question from a not related topic.
 
-**[v1.1.1](../../releases/tag/v1.1.1): March 19, 2026.**
+**[v1.1.1](../../releases/tag/v1.1.1): March 20, 2026.**
 
 - Fix 1 question with a wrong answer.
 
